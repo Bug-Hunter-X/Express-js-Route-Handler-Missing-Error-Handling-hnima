@@ -1,0 +1,3 @@
+# Express.js Route Handler Missing Error Handling
+
+This repository demonstrates a common error in Express.js route handlers: missing error handling for database operations. The example route fetches user data by ID. If the user is not found, or a database error occurs, the application will crash. The solution implements proper error handling to return appropriate HTTP status codes and error messages.
